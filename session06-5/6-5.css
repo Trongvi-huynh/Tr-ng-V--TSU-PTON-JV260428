@@ -1,0 +1,48 @@
+header {
+    background-color: green;
+    color: white;
+    padding: 0;
+    text-align: left;
+    display:flex;
+}
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+    text-align: right;
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+}
+
+main {
+    text-align: center;
+    background-color: lightgrey;
+    padding: 100px;
+}
+
+.start {
+    color: white;
+    padding: 12px 24px;
+    display: inline-block;
+    background-color: green;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.start:hover {
+    background-color: transparent;
+    color: green !important;
+    border: 2px solid green;
+}
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 20px;
+}
+#contact {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
