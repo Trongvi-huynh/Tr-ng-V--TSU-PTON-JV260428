@@ -1,0 +1,49 @@
+header {
+    background-color: green;
+    color: white;
+    padding: 0;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    list-style: disc;
+    display: block;
+}
+
+.wrapper {
+    display:flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.sidebar {
+    flex:1;
+    background-color:   #f4f4f4;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+
+
+}
+
+.content {
+    flex: 3;
+
+}
+
+.post {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+
+}
+
+.post img {
+    width: 200px;
+    display: block;
+    margin: 10px 0;
+}
