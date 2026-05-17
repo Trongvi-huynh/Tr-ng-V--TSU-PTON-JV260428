@@ -1,0 +1,15 @@
+.flex-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.flex-item {
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+}
