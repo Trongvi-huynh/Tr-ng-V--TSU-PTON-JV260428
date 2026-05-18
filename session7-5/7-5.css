@@ -1,0 +1,50 @@
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.big-group {
+    flex: 2;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.item-big {
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  height: 110px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 4px;
+}
+
+.large1 {
+    width: calc(100% - 10px);
+}
+
+.large2 {
+    width: calc(100% - 10px);
+}
+
+.small-group {
+    flex: 2;
+    flex-wrap: wrap;
+    display: flex;
+   
+}
+
+.item-small {
+  width: calc(40% - 10px);
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  margin-left: 10px
+  
+}
