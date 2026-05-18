@@ -1,0 +1,19 @@
+.flex-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+}
+
+.flex-item {
+    text-align: center;
+    width: calc(50% - 10px);
+}
+
+@media screen and (max-width: 600px) {
+    .flex-item {
+        width: calc(100% - 10px);
+    }
+    
+}
