@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  black;
+    color: white;
+    padding: 20px 50px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+main {
+    padding: 40px 50px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 400px;
+    margin-bottom: 20px;
+}
+
+
+.flex-container {
+    background-color: lightgrey;
+    color: black;
+    max-width: 500px;
+    
+}
+
+.others-posts {
+    margin-bottom: 20px;
+    padding: 20px
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
